@@ -40,6 +40,7 @@
     {"id":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},},
     {"id":{"name":"obj_teste3","path":"objects/obj_teste3/obj_teste3.yy",},},
     {"id":{"name":"obj_teste4","path":"objects/obj_teste4/obj_teste4.yy",},},
+    {"id":{"name":"obj_teste5","path":"objects/obj_teste5/obj_teste5.yy",},},
     {"id":{"name":"rm_principal","path":"rooms/rm_principal/rm_principal.yy",},},
     {"id":{"name":"spr_tesste1","path":"sprites/spr_tesste1/spr_tesste1.yy",},},
   ],
