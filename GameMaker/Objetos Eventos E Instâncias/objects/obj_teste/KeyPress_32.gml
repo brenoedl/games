@@ -1,1 +1,2 @@
-show_message(nome)
+
+show_debug_message(velocidade)
