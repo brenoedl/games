@@ -1,0 +1,17 @@
+Atividade 00:
+é uma contagem regresiva de 60 a 0 mas ao enves de escrever 0 ele escreve Rodei
+
+Atividade 01:
+Movê objeto como se estivece desendo uma escada
+
+Atividade 02:
+O objeto movê para baixo e para direita alternadamente e recomeça no meio
+
+Atividade 03:
+O objeto movê para baixo, sima, esquerda e direita alternadamente e recomeça no meio
+
+Atividade 04:
+O objeto move para direita com pulços
+
+Atividade 05:
+O objeto quica aleatoriamente
