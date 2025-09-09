@@ -1,3 +1,2 @@
-/// @description Iniciando o player
-
 gravity = 0.1;
+image_speed = 0;
