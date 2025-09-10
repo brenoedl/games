@@ -1,0 +1,1 @@
+escalaX = image_xscale

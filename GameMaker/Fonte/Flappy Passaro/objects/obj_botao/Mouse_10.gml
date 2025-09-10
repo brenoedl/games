@@ -1,0 +1,1 @@
+image_xscale = escalaX * 1.3;

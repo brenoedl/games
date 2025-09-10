@@ -1,6 +1,10 @@
 if(!global.morreu){
 	global.pontos += 0.1;
 	
+	if(global.pontos % 100 == 0){
+		global.coletaveis ++
+	}
+	
 	if(global.level < 9){
 		var _pontos_necessarios = global.lista_pontos[global.level -1]
 		
