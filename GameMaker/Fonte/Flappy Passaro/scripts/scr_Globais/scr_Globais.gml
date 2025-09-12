@@ -4,6 +4,8 @@
 	global.level = 1;
 	global.lista_pontos = [100, 250, 500, 800, 1200, 1800, 2500, 3500, 5000];
 	global.coletaveis = 0;
+	global.destino = rm_iniicial;
+	global.transicao = false;
 #endregion
 
 #region funçõs
@@ -21,5 +23,20 @@
 		layer_hspeed("bg_reflexo2", 0);
 
 		obj_player.alarm[0] = game_get_speed(gamespeed_fps);
+		
+		global.destino = rm_iniicial
+		layer_sequence_create("as_transicao", 0, 0, sqc_transicao1);
 	}
+	
+	function mudaRoom(){
+		global.transicao = true
+		room_goto(global.destino);
+	}
+	
+	function acabouTransicao(){
+		if(global.transicao){
+			global.transicao = false;
+		}
+	}
+	
 #endregion

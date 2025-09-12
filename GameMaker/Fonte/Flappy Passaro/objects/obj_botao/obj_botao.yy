@@ -6,7 +6,6 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
@@ -35,6 +34,9 @@
     {"$GMObjectProperty":"v1","%Name":"fonte","filters":[
         "GMFont",
       ],"listItems":[],"multiselect":false,"name":"fonte","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"ft_botao","path":"fonts/ft_botao/ft_botao.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ft_botao","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"destino","filters":[
+        "GMRoom",
+      ],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_iniicial","path":"rooms/rm_iniicial/rm_iniicial.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_iniicial","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

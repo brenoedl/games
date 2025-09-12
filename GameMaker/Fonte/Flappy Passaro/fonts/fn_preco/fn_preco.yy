@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Ft_pontos",
+  "%Name":"fn_preco",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":26,
@@ -213,7 +213,7 @@
   "last":0,
   "lineHeight":33,
   "maintainGms1Font":false,
-  "name":"Ft_pontos",
+  "name":"fn_preco",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -226,7 +226,7 @@
   "regenerateBitmap":false,
   "resourceType":"GMFont",
   "resourceVersion":"2.0",
-  "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647]l^~Ç",
+  "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
   "sdfSpread":8,
   "size":18.0,
   "styleName":"Regular",
