@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_passaro2",
-    "path":"sprites/spr_passaro2/spr_passaro2.yy",
+    "name":"spr_passaro3",
+    "path":"sprites/spr_passaro3/spr_passaro3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

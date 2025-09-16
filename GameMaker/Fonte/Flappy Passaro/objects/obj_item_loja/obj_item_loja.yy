@@ -3,8 +3,11 @@
   "%Name":"obj_item_loja",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_item_loja",
@@ -33,6 +36,7 @@
     {"$GMObjectProperty":"v1","%Name":"skin","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"skin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_passaro1","path":"sprites/spr_passaro1/spr_passaro1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_passaro1","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"indice","filters":[],"listItems":[],"multiselect":false,"name":"indice","rangeEnabled":false,"rangeMax":2.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
@@ -41,6 +45,9 @@
     "name":"spr_passaro1",
     "path":"sprites/spr_passaro1/spr_passaro1.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Sprite17",
+    "path":"sprites/Sprite17/Sprite17.yy",
+  },
   "visible":true,
 }

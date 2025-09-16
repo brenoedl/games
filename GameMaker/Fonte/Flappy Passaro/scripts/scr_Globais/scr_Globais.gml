@@ -2,10 +2,13 @@
 	global.morreu = false;
 	global.pontos = 0;
 	global.level = 1;
-	global.lista_pontos = [100, 250, 500, 800, 1200, 1800, 2500, 3500, 5000];
+	global.listaPontos = [100, 250, 500, 800, 1200, 1800, 2500, 3500, 5000];
 	global.coletaveis = 0;
 	global.destino = rm_iniicial;
 	global.transicao = false;
+	global.listaItensBloqueados = [false, true, true];
+	global.skinPlayer = spr_passaro1;
+	global.efeitos = true;
 #endregion
 
 #region funçõs
@@ -39,4 +42,10 @@
 		}
 	}
 	
+	function efeitosAtivos(){
+		layer_enable_fx("ef_folhas", global.efeitos);
+		layer_enable_fx("ef_agua", global.efeitos);
+		layer_enable_fx("in_coletaveis", global.efeitos);
+		layer_enable_fx("in_passaros", global.efeitos);
+	}
 #endregion

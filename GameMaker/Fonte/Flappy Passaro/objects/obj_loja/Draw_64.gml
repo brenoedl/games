@@ -1,3 +1,5 @@
+if(global.transicao) exit;
+
 draw_set_font(Ft_pontos);
 
 draw_sprite_ext(spr_icone_coletavel, 0, 40, 80, 2, 2, 0, c_white, 1);

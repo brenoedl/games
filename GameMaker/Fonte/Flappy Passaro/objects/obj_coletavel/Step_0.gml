@@ -3,5 +3,5 @@ if(global.morreu){
 }
 
 if(x <= -32){
-	instance_destroy();
+	instance_destroy(id, false);
 }
