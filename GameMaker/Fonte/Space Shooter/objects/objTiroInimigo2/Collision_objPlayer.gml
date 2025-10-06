@@ -1,0 +1,3 @@
+destroindo(objParticulaTiros);
+
+other.perdeVida();
