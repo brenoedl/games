@@ -1,0 +1,1 @@
+layer_sequence_create("SqcInimigos", 0, 0, orda[0]);
