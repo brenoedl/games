@@ -12,14 +12,14 @@ morrendo = function(){
 	var _chance = random(100);
 	
 	if(_chance > 85){
-		instance_create_layer(x, y, layer, objPowerUpTiro);
+		instance_create_layer(x, y, "PowerUp", objPowerUpTiro);
 	}
 	
 	if(_chance > 70){
-		instance_create_layer(x, y, layer, objPowerUpVida);
+		instance_create_layer(x, y, "PowerUp", objPowerUpVida);
 	}
 	
 	if(_chance > 50){
-		instance_create_layer(x, y, layer, objPowerUpEscudo);
+		instance_create_layer(x, y, "PowerUp", objPowerUpEscudo);
 	}
 }
