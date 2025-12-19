@@ -30,11 +30,11 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"texto","filters":[],"listItems":[],"multiselect":false,"name":"texto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Botão","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"fonte","filters":[
+    {"$GMObjectProperty":"v2","%Name":"texto","filters":[],"listItems":[],"multiselect":false,"name":"texto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Botão","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"fonte","filters":[
         "GMFont",
       ],"listItems":[],"multiselect":false,"name":"fonte","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"ft_botao","path":"fonts/ft_botao/ft_botao.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ft_botao","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"destino","filters":[
+    {"$GMObjectProperty":"v2","%Name":"destino","filters":[
         "GMRoom",
       ],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_iniicial","path":"rooms/rm_iniicial/rm_iniicial.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_iniicial","varType":5,},
   ],
